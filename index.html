@@ -1,0 +1,39 @@
+    <!DOCTYPE html>
+    <html lang="zh-CN">
+      <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>jQuery模态框插件</title>
+        <script type="text/javascript" src="jquery-1.10.1.js"></script>
+        <script type="text/javascript" src="jquery.modal.js"></script>
+        <script type="text/javascript" src="index.js"></script>
+      </head>
+      <style type="text/css">
+        .btn,.close{
+          width: 150px;
+          height: 40px;
+          text-align: center;
+          line-height: 40px;
+          border:1px solid #000;
+          cursor: pointer;
+          margin: 10px;
+        }
+        .modal{
+          border:1px solid #eee;
+          padding: 20px;
+        }
+        .content{
+          margin: 10px;
+        }
+      </style>
+      <body>
+          <div class="btn">单击弹出模态框</div>
+          <div class="modal" style="display: none;">
+            <div class="close">单击关闭模态框</div>
+            <div class="content">我是模态框内容</div>
+          </div>         
+      </body>
+    </html>
+
+

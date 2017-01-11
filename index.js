@@ -1,0 +1,9 @@
+$(function(){
+	$('.btn').click(function(){
+		$('.modal').jModal({
+			mSize:{mWidth:500,mHeight:250},
+			mTop:150,
+			mAnimation:'slide'
+		});
+	});
+});
